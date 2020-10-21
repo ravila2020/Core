@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Login {
 
 	@GetMapping
-	public String Saludar(){
+	public String Mensaje(){
 		String Saludo = "{\"Mensaje\":\"Hola\"}";
 		return Saludo;
 	}
